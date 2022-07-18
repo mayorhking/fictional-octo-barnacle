@@ -1,0 +1,101 @@
+.hero {
+    background-color: lightskyblue;
+    color: black;
+    width: 400px;
+    height: 400px;
+    padding: 10px;
+    margin: 10px;
+    font-size: large;
+    /* font-weight: 1000; */
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-display: auto;
+    display: inline-block;
+    text-align: left;
+    overflow: auto;
+}
+
+.hero h2 {
+    text-decoration: underline;
+}
+
+.love{
+    background-color: green;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 25%;
+}
+
+/* .faith {
+    background-color: black;
+    background-image: url(https://media.giphy.com/media/bLtwzNgtOXGWVV925V/giphy.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 90%;
+} */
+
+/* .truth {
+    background-color: black;
+    background-image: url(https://media.giphy.com/media/YkXNjAkG7CfEVx3gcy/giphy.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 20%;
+    margin: 10px;
+    padding: 30px;
+} */
+
+/* #try{
+    box-sizing: border-box;
+    background-color: white;
+    color: black;
+} */
+
+li
+ {
+    list-style: lower-roman;
+ }
+#text {
+    overflow: auto;
+}
+body {
+    box-sizing: border-box;
+    background-color: rosybrown;
+    /* color: white; */
+    /* background-image: url(https://i.pinimg.com/originals/79/a3/84/79a384c3c449ad01b0e57e790807b2c0.gif);
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+body h1{
+    font-size: 150%;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.logo{
+width: 100px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: large;
+}
+
+/* #active {
+    font-weight: bold;
+} */

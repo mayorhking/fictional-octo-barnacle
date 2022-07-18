@@ -1,0 +1,90 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply Now</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="header">
+        <img src="./images/Manifoldlogo.png" class="logo">
+        <h1>Front-End Engineer</h1>
+        <p>REMOTE/ &nbsp; ENGINEERING/ &nbsp; FULL-TIME</p>
+    </div>
+    <div class="main-content">
+        <div class="main-first">
+        <h4>SUBMIT YOUR APPLICATION</h4><br>
+        <p>Resume/CV</p><br>
+        <button type="button" onclick="attachresume/cv()" class="attach-btn">ATTACH RESUME/CV</button><br><br>
+        <form class="list">
+        <label for="fullname">Full name </label><br>
+        <input type="text" class="input-field" name="fullname"><br><br>
+        <label for="email">Email</label><br>
+        <input type="email" class="input-field" name="email"><br><br>
+        <label for="phone">Phone</label><br>
+            <input type="text" class="input-field" name="Phone" required><br><br>
+            <label for="currentcompany">Current Company</label><br>
+            <input type="text" class="input-field" name="currentcompany" required><br><br>
+<h4>LINKS</h4><br><br>
+            <label for="linkedln url">Linkedln URL</label><br>
+            <input type="text" class="input-field" name="urls[Linkedln]" required><br><br>
+            <label for="github url">GitHub URL</label><br>
+            <input type="text" class="input-field" name="urls[GitHub]" required><br><br>
+            <label for="portfolio url">Portfolio URL</label><br>
+            <input type="text" class="input-field" name="urls[Portfolio]" required><br><br>
+            <label for="otherwebsite">Other website</label><br>
+            <input type="text" class="input-field" name="urls"><br><br>
+            
+            <h4>SOURCE</h4><br>
+            <!-- <fieldset> -->
+                <legend>Where did you hear about us?</legend><br>
+                <textarea type="text" name="desc" id="desc"  cols="30" rows="10"></textarea><br><br>
+            <!-- </fieldset> -->
+
+            <h4>ADDITIONAL INFORMATION</h4><br>
+            <textarea type="text" name="desc" id="desc" cols="30" rows="10" placeholder="Add a cover letter or anything else you want to share."></textarea><br><br>
+            <hr class="line">
+            <hr><br>
+            <br>
+            <h4>DEMOGRAPHIC SURVEY FOR MANIFOLD</h4><br>
+            <p style="color: yellow;">We understand it takes a diverse team of highly intelligent, passionate, curious, and creative people to solve<br> the challenges involved in developing and improving the product(s) we are building. For this reason, we invite<br> you to complete this optional survey to help us ensure we are maintaining equal and fair hiring efforts.<br> This information is strictly voluntary and is in no way connected to your name or job application. It is kept secure<br> and confidential and is anonymously collected to help us evaluate our diversity and inclusion efforts.</p><br><br>
+
+            <p>What is your range</p><br>
+            <input type="radio" value="17 or younger" name="option"> 17 or younger<br><br>
+        <input type="radio" value="21-29" name="option"> 21-29<br><br>
+        <input type="radio" value="30-39" name="option"> 30-39<br><br>
+        <input type="radio" value="40-49" name="option"> 40-49<br><br>
+        <input type="radio" name="option" value="50-59"> 50-59<br><br>
+        <input type="radio" name="option" value="Prefer not to say"> Prefer not to say<br><br>
+        <br><br>
+        <p>I identify my ethnicity as</p><br>
+        <span style="font-size: 12px; color: rgb(121, 19, 19); padding-left: 10px;">Select all that apply</span><br><br>
+
+        <input type="checkbox" value="White or Caucasian" name="option">White or Caucasian<br><br>
+        <input type="checkbox" value="Hispanic, Latino, or Spanish origin" name="option">Hispanic, Latino, or Spanish origin<br><br>
+        <input type="checkbox" value="Black or African American" name="option">Black or African American<br><br>
+        <input type="checkbox" value="Asian" name="option">Asian<br><br>
+        <input type="checkbox" value="Native Hawaiian or other Pacific Islander" name="option">Native Hawaiian or other Pacific Islander<br><br>
+        <input type="checkbox" value="Indigenous Peoples, First Nations, Native American, or Alaska Native" name="option">Indigenous Peoples, First Nations, Native American, or Alaska Native<br><br>
+        <input type="checkbox" value="Middle Eastern or North African" name="option">Middle Eastern or North African<br><br>
+        <input type="checkbox" value="My race, ethnicity, or origin is not listed" name="option">My race, ethnicity, or origin is not listed<br><br><br>
+        <p>Which of the following most closely represents the gender you identify with?</p><br><br>
+
+        <input type="radio" value="Female" name="option">Female<br><br>
+        <input type="radio" value="Male" name="option">Male<br><br>
+        <input type="radio" value="Non-binary" name="option">Non-binary<br><br>
+        <input type="radio" value="Transgender" name="option">Transgender<br><br>
+        <input type="radio" value="Gender neutral" name="option">Gender neutral<br><br>
+        <input type="radio" value="My gender identify is not listed" name="option">My gender identify is not listed<br><br>
+        <input type="radio" value="Prefer" name="option">Prefer<br><br>
+
+        <button type="button" onclick="submit()" class="submit-btn">SUBMIT APPLICATION</button>
+
+
+
+</form>
+</div> 
+</div>
+</body>
+</html>

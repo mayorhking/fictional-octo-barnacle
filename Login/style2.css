@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    
+}
+.header{
+margin: 45px;
+background-color: white;
+}
+.header h1{
+    margin-top: 20px;
+}
+.header p{
+    display: flex;
+    position: relative;
+    margin-top: 10px;
+    color: rgb(204, 4, 4);
+    width: 100%;
+}
+.logo{
+    width: 160px;
+}
+.main-content {
+    /* height: 100%;
+    width: 100%; */
+    background-image:url(./images/applysun.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: rgb(248, 252, 7);
+}
+.main-first h4{
+    padding-top: 20px;
+}
+.main-first{
+    margin: 45px;
+}
+hr{
+    border-color: rgb(17, 12, 12);
+    opacity: 0.3;
+    margin-top: 10px;
+}
+.attach-btn{
+    border: 0;
+    border-radius: 15px;
+    width: 200px;
+    height: 50px;
+    color: whitesmoke;
+    cursor: pointer;
+    background-color: rgb(124, 111, 111);
+}
+.main-content p{
+    color: black;
+    font-size: larger;
+}
+.input-field{
+    display: flex;
+    position: absolute;
+    border: 0;
+    width: 400px;
+    height: 30px;
+    background-color:rgb(219, 210, 210);
+}
+.submit-btn{
+    background-color: blue;
+    border: 0;
+    border-radius: 15px;
+    width: 15%;
+    height: 40px;
+    cursor: pointer;
+    color: antiquewhite;
+}
+.line{
+    border: hidden;
+}

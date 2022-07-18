@@ -1,0 +1,56 @@
+a:link{
+
+}
+
+a:visited {
+
+}
+
+a:active {
+
+}
+
+a:hover{
+
+
+}
+
+img {width: 50px; height: 50px;
+    border-radius: 25px;
+    float: left;
+    margin: 5px;
+}
+
+body {
+
+    background-color: bisque;
+  }
+
+* { 
+    scroll-behavior: smooth;
+}
+
+table {
+    color:blue;
+border-collapse: collapse;
+}
+
+thead {
+    background-color: brown;
+}
+
+th { 
+    padding: 20px;
+    border: solid 3px black;
+}
+
+td {
+    padding: 20px;
+    background-color: transparent;
+    border: solid 3px black;
+}
+
+tbody {
+    font-size: larger;
+    margin: 2px;
+}

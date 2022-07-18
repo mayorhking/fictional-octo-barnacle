@@ -1,0 +1,35 @@
+body { text-align: left;
+    background-color:green;
+    font-family: 'Times New Roman', Times, serif;
+font-size: large;
+text-decoration: solid; 
+}
+
+
+table {
+    color: green;
+border-collapse: collapse;
+}
+
+thead { border: solid 3px white;
+    background-color: white;
+}
+
+
+th { 
+    padding: 20px;
+    border: solid 3px green;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 20px;
+    background-color: white;
+    border: solid 3px green;
+    border-collapse: collapse;
+}
+
+tbody {
+    font-size: large;
+    margin: 2px;
+}
